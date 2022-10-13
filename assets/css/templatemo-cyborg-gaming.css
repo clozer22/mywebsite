@@ -1345,47 +1345,57 @@ Game Details Style
   color: white;
   font-weight: bold;
 }
-.game-details .content .left-info input{
-  background-color: #666;
-  border-radius: 30px;
-  padding: 10px 70px;
-  border:  1px solid #e75e8d;
-}
-.game-details .content .left-info input:hover{
-  border: 1px solid #CCC;
-}
-.game-details .content .left-info input::placeholder{
-  color: white;
+.game-details .content .left-info h1{
   text-align: center;
 }
-.game-details .content .left-info textarea{
-  background-color: #666;
-  border-radius: 30px;
-  padding: 40px 90px;
-  resize: none;
-  border:  1px solid #e75e8d;
-  font-size: .9rem;
+.game-details .content .left-info .contact-txt{
+  width: 100%;
+  height: 40px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+
 }
-.game-details .content .left-info textarea:hover{
-  border: 1px solid #CCC;
+
+.game-details .content .left-info .contact-txt::placeholder{
+  color: #aaa;
 }
-.game-details .content .left-info .buttons{
-  padding-left: 130px;
-  margin-top: 1%;
+.game-details .content  .contact-txtarea{
+  width: 100%;
+  height: 130px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-family: 'Poppins',sans-serif;
 }
-.game-details .content .left-info .buttons .send{
-  border: 1px solid #e75e8d;
-  border-radius: 30px;
-  padding: 10px 20px;
-  background-color: #ec6090;
-  align-items: center;
+.game-details .content  .contact-txtarea::placeholder{
+  color: #aaa;
 }
-.game-details .content .left-info .buttons .send:hover{
- background-color: #CCC;
+.game-details .content  .contact-send{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #e75e8d;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0;
 }
+.game-details .content  .contact-send:hover{
+  background-color:#bd3b69;
+}
+
+
 .game-details .content .left-info .message h1 span{
   color: #e75e8d;
 }
+
 .game-details .content .right-info h1 span{
  color: #e75e8d;
 }
@@ -1401,6 +1411,15 @@ Game Details Style
 } 
 .game-details .content .right-info .social a i{
   padding-left: 20px;
+}
+.game-details .content .right-info .contact-map{
+  width: 100%;
+  height: auto;
+  flex: 30%;
+}
+.game-details .content .right-info .contact-map iframe{
+  width: 500px;
+  height: 300px;
 }
 
 .game-details .content .left-info h4 {
@@ -1435,6 +1454,7 @@ Game Details Style
   border-radius: 23px;
   padding: 30px;
   margin-bottom: 30px;
+  height: 95%;
 }
 
 .game-details .content .right-info ul li {
